@@ -1,0 +1,150 @@
+/* PC */
+@media (min-width: 1200px) {
+  .footer-logo {
+    margin-left: 10%;
+  }
+}
+
+/* Tablet */
+
+@media only screen and (min-width: 992px) and (max-width:1199px){
+  .product-service .box-content {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .product-service .box-content .box-item:first-child {
+    margin-right: 20px;
+  }
+
+  .product-service .box-content .box-item:nth-child(2) {
+    margin-left: 20px;
+  }
+
+  .product-service .box-content .box-item:last-child {
+    margin-top: 40px;
+  }
+
+  .infrastructure-slider {
+    top: -45px;
+  }
+}
+
+
+/* Mobile */
+@media only screen and (min-width: 768px) and (max-width:991px){
+  .infrastructure-slider {
+    position: relative;
+    top: unset;
+    height: 310px;
+  }
+
+  .infrastructure-content-left {
+    margin-bottom: 30px;
+  }
+
+  .infrastructure.box .box-title {
+    text-align: center;
+  }
+
+  .infrastructure.box .box-title .box-title-sub br {
+    display: none;
+  }
+
+  .infrastructure.box .box-title .box-title-sub:after{
+    width: 40%;
+    left: 50%;
+    -webkit-transform: translateX(-40%);
+    -moz-transform: translateX(-40%);
+    -ms-transform: translateX(-40%);
+    -o-transform: translateX(-40%);
+    transform: translateX(-40%);
+  }
+
+  .navbar-logo {
+    width: 200px;
+  }
+
+  .product-service .box-content {
+    display: block;
+  }
+
+  .product-service .box-content .box-item {
+    margin-bottom: 20px;
+  }
+
+  .brand-item {
+    margin-bottom: 30px;
+  }
+
+  .footer-logo {
+    margin-left: unset;
+  }
+
+  .footer-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+
+/* Mobile */
+@media (max-width: 767px){
+  .infrastructure-slider {
+    position: relative;
+    top: unset;
+    height: 310px;
+  }
+  .infrastructure-carousel-item:nth-of-type(2) {
+    display:none;
+  }
+
+  .infrastructure-content-left {
+    margin-bottom: 30px;
+  }
+
+  .infrastructure.box .box-title {
+    text-align: center;
+  }
+
+  .navbar-logo {
+    width: 150px;
+  }
+
+  .product-service .box-content {
+    display: block;
+  }
+
+  .product-service .box-content .box-item {
+    margin-bottom: 20px;
+  }
+
+  .about-us-home .about-us-description {
+    margin-bottom: 20px;
+  }
+
+  .brand-item {
+    margin-bottom: 30px;
+  }
+
+  .footer-right-first>div {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .footer-right-first .certification {
+    margin: 20px 0;
+  }
+
+  .footer-right-first .input-subscribe-news {
+    width: 100%;
+  }
+}
+
+@media (max-width: 559px){
+  .infrastructure-carousel-item:nth-of-type(1) {
+    display:none;
+  }
+}
+
+
