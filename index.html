@@ -25,7 +25,7 @@
             </div>
           </div>
           <div class="navbar-menu">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-nav-pc">
               <li class="active nav-item">
                 <a class="nav-link" href="#">Trang chủ</a>
               </li>
@@ -54,9 +54,56 @@
                 <a class="nav-link" href="#">Liên hệ</a>
               </li>
             </ul>
+
+            <label for="nav-mobile-input" class="nav-bars-btn">
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2"/><path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z"/></svg>
+            </label>
+
+            <!-- <label for="nav-mobile-input"></label> -->
+            <input type="checkbox" hidden name="" class="nav-mobile-input" id="nav-mobile-input">
+
+            <div class="nav-overlay"></div>
+
+            <ul class="navbar-nav-mobile">
+              <label for="nav-mobile-input" class="nav-mobile-close">
+                <img src="/assets/img/close-black.svg" alt="Close button">
+              </label>
+              <div class="nav-mobile-logo">
+                <a class="nav-link" href="#">
+                  <img class="logo" src="assets/img/logo.jpg" alt="logo" />
+                </a>
+              </div>
+              <li class="active nav-item">
+                <a class="nav-link" href="#">Trang chủ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Về chúng tôi</a>
+              </li>
+              <li class="nav-item nav-item-sub">
+                <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
+                  aria-expanded="false">Sản phẩm - dịch vụ <span class="caret"></span></a>
+                <ul class="nav-menu-sub">
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Khí NH3</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Dịch vụ NH4OH</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Dịch vụ vận tải hóa chất</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Tin tức</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Liên hệ</a>
+              </li>
+            </ul>
           </div>
 
-          <div class="navbar-language">
+          <div class="navbar-language navbar-language-pc">
             <div class="btn-group">
               <button type="button" class="btn btn-default language-btn">
                 <img class="icon-vietnamese-language" src="assets/img/icon-vietnamese.png" alt="icon-vietnamese" />

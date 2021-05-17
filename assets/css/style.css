@@ -87,12 +87,11 @@ html, body {
 }
 
 .header .navbar-menu {
-  margin-left: 31%;
   display: flex;
   align-items: center;
 }
 
-.header .nav-link{
+.header .navbar-nav-pc .nav-link{
   font-size: 1.4rem;
   color: #231f20;
   text-transform: uppercase;
@@ -100,11 +99,11 @@ html, body {
   background-color: transparent !important;
 }
 
-.header .nav-link:hover {
+.header .navbar-nav-pc .nav-link:hover {
   color: #6C994E;
 }
 
-.header .nav-link::after{
+.header .navbar-nav-pc .nav-link::after{
   content: '';
   height: 1px;
   background: #181818;
@@ -122,11 +121,11 @@ html, body {
   transition: all 0.5s ease;
 }
 
-.header .nav-link:hover:after {
+.header .navbar-nav-pc .nav-link:hover:after {
   width: 70%;
 }
 
-.navbar-menu .dropdown-menu {
+.navbar-menu .navbar-nav-pc .dropdown-menu {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   border:none;
   border-radius: 4px !important;
@@ -136,24 +135,24 @@ html, body {
   left: auto;
 }
 
-.navbar-menu .dropdown-menu .nav-item .nav-link {
+.navbar-menu .navbar-nav-pc .dropdown-menu .nav-item .nav-link {
   padding: 10px;
   border-bottom: 1px solid #ccc;
   margin: 0 1rem;
   text-transform: none;
 }
 
-.navbar-menu .dropdown-menu .nav-item:last-child .nav-link {
+.navbar-menu .navbar-nav-pc .dropdown-menu .nav-item:last-child .nav-link {
   border:none;
 }
 
-.navbar-menu .dropdown.nav-item {
+.navbar-menu .navbar-nav-pc .dropdown.nav-item {
   position: relative;
   display: flex;
   justify-content: center;
 }
 
-.navbar-menu .dropdown-menu::before {
+.navbar-menu .navbar-nav-pc .dropdown-menu::before {
   content: "";
   position: absolute;
   width: 0;
@@ -688,10 +687,4 @@ footer {
 
 /* End css Footer
 =========================================== */
-
-
-
-
-
-
 
