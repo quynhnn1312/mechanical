@@ -237,7 +237,6 @@ html, body {
 
 .slider-home .carousel-inner img{
   width: 100%;
-  height: 470px;
   cursor: pointer;
 }
 
@@ -448,7 +447,7 @@ html, body {
 
 /* Start css Certificate
 =========================================== */
-.certificate {
+.certificate.box-shadow {
   margin-top: 80px;
   padding-top: 20px;
   padding-bottom: 50px;
@@ -457,6 +456,10 @@ html, body {
 
 .certificate-img img {
   max-width: 100%;
+}
+
+.certificate.mb-7 {
+  margin-bottom: 70px;
 }
 /* End css Certificate
 =========================================== */
@@ -688,3 +691,461 @@ footer {
 /* End css Footer
 =========================================== */
 
+
+/* start css About Us Page
+=========================================== */
+.infrastructure-about-page {
+  margin-bottom: 20px;
+}
+
+.infrastructure-about-page .owl-theme .owl-nav {
+  display: none;
+}
+
+.infrastructure-about-page .owl-dots {
+  margin-top: 40px;
+}
+
+.news-about-page {
+  margin-bottom: 30px;
+}
+
+.news-about-list .news-about-item {
+  padding: 10px;
+  height: 480px;
+  font-family: "utm-aptima";
+}
+
+.news-about-list .news-about-item > div {
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  padding: 25px 17px;
+}
+
+.news-about-title {
+  font-size: 3rem;
+  text-align: center;
+  margin: 10px 0 20px;
+}
+
+.news-about-desc {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.news-about-list .news-about-item img {
+  width: 100%;
+}
+
+/* End css About Us Page
+=========================================== */
+
+
+/* Start css Product Detail Page
+=========================================== */
+.breadcrumb-page {
+  margin-top: 40px;
+}
+
+.breadcrumb-page a{
+  color: #231f20;
+  font-size: 1.8rem;
+}
+
+.breadcrumb-page a:hover {
+  color: #6c994e;
+  text-decoration: none;
+}
+
+.breadcrumb-page span {
+  font-size: 1.6rem;
+  margin: 0 5px;
+}
+
+.product-detail-page {
+  font-family: "utm-aptima";
+}
+
+.product-detail-content {
+  margin-bottom: 70px;
+}
+
+.product-detail-title {
+  border-bottom: 1px solid #bfbbbb;
+  padding-bottom: 15px;
+}
+
+.product-detail-desc-short {
+  margin-bottom: 20px;
+}
+
+.product-detail-img {
+  margin-top: 20px;
+}
+
+.product-detail-desc-short,
+.product-detail-desc {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.product-detail-right {
+  margin-top: 30px;
+}
+
+.product-detail-right-box {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+  padding: 20px 25px 100px 25px;
+  position: relative;
+}
+
+.product-detail-right-title {
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+}
+
+.product-detail-right-item {
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.product-detail-right-item select {
+  width: 185px;
+}
+
+.product-detail-right-item select,
+.product-detail-right-item input   {
+  padding: 10px 5px;
+}
+
+.product-detail-right-box .btn-submit {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  background: #b3b3b3;
+  border: none;
+  padding: 15px 0;
+  color: #fff;
+  font-size: 2rem;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1) inset,
+  0px 0px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+.product-detail-right-box .btn-submit:hover {
+  background: #999;
+}
+
+.download-product-spec{
+  margin-top: 5px;
+}
+
+.download-product-spec a{
+  display: block;
+  width: 100%;
+  background: #6c994e;
+  font-size: 2.2rem;
+  text-transform: uppercase;
+  padding: 14px 0;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+}
+
+.download-product-spec a:hover {
+  background-color: #405a29;
+}
+
+/* End css Product Detail Page
+=========================================== */
+
+
+/* Start css Product Page
+=========================================== */
+.product-page {
+  font-family: "utm-aptima";
+  margin-bottom: 70px;
+}
+
+.product-list {
+  margin-top: 50px;
+}
+
+.product-title-page {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.product-title {
+  font-size: 2.4rem;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #c9c6c5;
+}
+
+.product-item img {
+  width: 230px;
+}
+
+.product-title-sub {
+  font-size: 2.2rem;
+  line-height: 19px;
+  margin-bottom: 20px;
+}
+
+.product-desc {
+  font-size: 1.6rem;
+  text-align: justify;
+}
+
+.media-body {
+  padding-bottom: 7px;
+}
+
+.product-more {
+  font-size: 1.5rem;
+  background: #6c994e;
+  padding: 0 10px 5px 10px;
+  border-radius: 30px;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+.product-more svg {
+  position: relative;
+  top: 2px;
+  fill: #fff;
+}
+
+.product-more:hover {
+  background: #5b8042;
+}
+
+.product-nav-title {
+  text-transform: uppercase;
+  border-bottom: 2px solid #938d8d;
+  padding-bottom: 7px;
+  font-size: 2rem;
+}
+
+.product-nav-list {
+  list-style: none;
+  font-size: 1.6rem;
+  padding-left: 20px;
+}
+
+.product-nav-item {
+  line-height: 30px;
+}
+
+.product-nav-link {
+  color: #000;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+.product-nav-link:hover {
+  color: #5b8042;
+  text-decoration: none;
+}
+
+.product-nav {
+  margin-bottom: 30px;
+}
+/* End css Product Page
+=========================================== */
+
+
+/* Start css Blog Detail Page
+=========================================== */
+.blog-detail-page {
+  font-family: "utm-aptima";
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+
+.blog-detail-title {
+  font-size: 2.5rem;
+  line-height: 35px;
+}
+
+.blog-detail-date {
+  font-size: 1.5rem;
+  color: #4b4848;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.blog-detail-img {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.blog-detail-img img {
+  width: 100%;
+  max-width: 480px;
+}
+
+.blog-detail-content {
+  font-size: 1.5rem;
+}
+/* End css Blog Detail Page
+=========================================== */
+
+/* Start css Blog Page
+=========================================== */
+.blog-page {
+  font-family: "utm-aptima";
+}
+
+.blog-page-title {
+  font-size: 6rem;
+  color: #4b4848;
+}
+
+
+.blog-page-date {
+  font-size: 3.2rem;
+  line-height: 80px;
+  color: #4b4848;
+}
+
+.blog-page-item a{
+  text-decoration: none !important;
+}
+
+.blog-page-description {
+  font-size: 2rem;
+  text-align: justify;
+  color: #4b4848;
+}
+
+.container-fluid.blog-page-item {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.container-fluid.blog-page-item:hover {
+  background-color: #cedbbd;
+}
+
+.blog-page-pagination {
+  font-size: 2rem;
+  margin-top: 20px;
+  margin-bottom: 70px;
+}
+
+.blog-page-pagination ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.blog-page-pagination ul li{
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.blog-page-pagination ul li+li {
+  margin-left: 20px;
+}
+
+.blog-page-pagination ul li a{
+  display: block;
+  padding: 4px 0 0 0;
+}
+
+.blog-page-pagination .action{
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  background: #f0efef;
+}
+
+.blog-page-pagination .action:hover{
+  background: #c4c3c3;
+}
+
+.blog-page-pagination .action a{
+  color: #000;
+  text-decoration: none !important;
+}
+
+.blog-page-pagination .page-x {
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  background: #5b8042;
+}
+
+.blog-page-pagination .page-x:hover {
+  background: #405a29;
+}
+
+.blog-page-pagination .page-x a {
+  color: #fff;
+  height: 100%;
+}
+
+.blog-page-pagination .page-x a{
+  text-decoration: none !important;
+}
+/* End css Blog Page
+=========================================== */
+
+/* Start css Thankyou Page
+=========================================== */
+.thank-you-page {
+  font-family: "utm-aptima";
+  font-size: 1.4rem;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.thank-you-page p {
+  font-size: 3rem;
+}
+
+.thank-you-page a {
+  margin-top: 20px;
+  display: inline-block;
+  font-size: 1.5rem;
+  background: #6c994e;
+  padding: 0 10px 5px 10px;
+  border-radius: 30px;
+  color: #fff !important;
+  text-decoration: none !important;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+}
+
+.thank-you-page a:hover {
+  background: #405a29;
+}
+/* End css Thankyou Page
+=========================================== */
+
+.not-found-page {
+  padding: 0;
+}
