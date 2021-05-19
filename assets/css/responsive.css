@@ -552,9 +552,68 @@
   }
    /* End responsive About Us Page
   =========================================== */
+
+  .layout-background-right  {
+    background: #fff;
+  }
+
+  .recruitment-detail-right {
+    background: #f3f0ed;
+    padding-bottom: 70px;
+    padding-top: 50px;
+  }
+
+  .about-content-top {
+    flex-direction: column;
+  }
+
+  .about-content-top-left {
+    width: 100%;
+  }
+
+  .about-content-top-right {
+    width: 80%;
+    margin: 0;
+    margin-top: -100px;
+  }
+
+  .about-content-top-right p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+     display: -webkit-box;
+  }
+
+  .about-content-bottom {
+    flex-direction: column-reverse;
+    margin-top: 70px;
+    margin-bottom: 50px;
+  }
+
+  .about-content-bottom-right {
+    width: 100%;
+  }
+
+  .about-content-bottom-left {
+    width: 80%;
+    margin: 0;
+    margin-top: -100px;
+  }
+
+  .about-content-bottom-left p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+     display: -webkit-box;
+  }
+
 }
 
 @media (max-width: 559px) {
+
+
   .product-title-sub {
     margin-top: 20px;
   }
@@ -680,8 +739,11 @@
     right: 18px;
     cursor: pointer;
   }
-
   /* End responsive Navbar */
+
+  .recruitment-box-item {
+    display: block;
+  }
 }
 
 

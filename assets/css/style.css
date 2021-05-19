@@ -338,6 +338,66 @@ html, body {
 .about-us-home .about-us-image img{
   width: 100%;
 }
+
+.about-main-content.box .box-title-sub::after{
+  left:0;
+  width: 80%;
+  transform: translateX(0%);
+  border-color: #fff;
+}
+
+.about-content-top,
+.about-content-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content-top-right,
+.about-content-bottom-left {
+  background: #6c994e;
+  color: #fff;
+  padding: 20px 50px;
+  min-height: 400px;
+
+  width: 60%;
+}
+
+.about-content-top-right{
+  margin-left: -50px;
+}
+
+.about-content-bottom-left {
+  position: relative;
+  z-index: 999999;
+  margin-right: -50px;
+}
+
+.about-content-top-right .box-title {
+  margin: 0 0 30px 0;
+}
+
+.about-content-desc {
+  font-size: 1.6rem;
+  font-family: "utm-aptima";
+  text-align: justify;
+}
+
+.about-main-content {
+  margin-top: 50px;
+}
+
+.about-content-top-left {
+  width: 40%;
+  height: 500px;
+  background: url(../img/banner-about-1.jpg) no-repeat center / cover;
+}
+
+.about-content-bottom-right {
+  width: 40%;
+  height: 500px;
+  background: url(../img/banner-about-2.jpg) no-repeat center / cover;
+}
 /* End css About Us
 =========================================== */
 
@@ -1149,3 +1209,328 @@ footer {
 .not-found-page {
   padding: 0;
 }
+
+/* Start css Contact Page
+=========================================== */
+.contact-page {
+  margin-top: 20px;
+  font-family: "utm-aptima";
+  font-size: 1.4rem;
+  margin-bottom: 70px;
+}
+
+.title-contact-page {
+  font-size: 3rem;
+  border-bottom: 1.7px solid #938d8d;
+  padding-bottom: 10px;
+}
+
+.form-contact{
+  margin-bottom: 50px;
+}
+
+.form-item {
+  margin: 10px 0;
+}
+
+.form-item label {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: normal;
+}
+
+.form-item input {
+  width: 95%;
+  border-radius: 30px;
+  border: 1px solid #8f8f8f;
+  padding: 4px 15px;
+}
+
+.form-item-content input{
+  width: 95%;
+  border-radius: 60px;
+  height: 85px;
+}
+
+.form-confirm-code {
+  width: 300px;
+  display: flex;
+  margin: 20px 0;
+}
+
+.form-confirm-code .code {
+  border: 1px solid #938d8d;
+  font-weight: bold;
+  width: 150px;
+  position: relative;
+  margin: 0 10px;
+}
+
+.form-confirm-code .code span{
+  position: absolute;
+  font-size: 2.2rem;
+  left: 10%;
+  top: -4px;
+}
+
+.form-confirm-code .load-code {
+  border: 1px solid #938d8d;
+  width: 60px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.9rem;
+  padding-bottom: 5px;
+}
+
+.form-confirm-code .load-code:hover {
+  background: #ccc;
+}
+
+.contact-submit {
+  border: none;
+  background-color: #5b8042;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 25px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+.contact-submit:hover{
+  background-color: #405a29;
+}
+
+.contact-nav-title {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+/* End css Contact Page
+=========================================== */
+
+/* Start css Recruitment Page
+=========================================== */
+.recruitment-page {
+  font-family: "utm-aptima";
+  margin-bottom: 50px;
+}
+
+.recruitment-box-item::after {
+  position: absolute;
+  content: '';
+  width: 5px;
+  background: #3b5729;
+  right: 10px;
+  top: 10px;
+  bottom: 10px;
+}
+
+.recruitment-box-item {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  background: #f3f0ed;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.recruitment-title {
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+.recruitment-count {
+  font-size: 1.8rem;
+}
+
+.recruitment-time {
+  font-size: 1.6rem;
+}
+
+.recruitment-box-right {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.recruitment-city {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.recruitment-box-right div + div {
+  margin-left: 90px;
+}
+
+.recruitment-btn button{
+  text-transform: uppercase;
+  border: none;
+  background-color: #5b8042;
+  color: #fff;
+  border-radius: 20px;
+  padding: 5px 20px;
+  transition: all 0.3s ease;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+}
+
+.recruitment-btn button:hover {
+  background-color: #405a29;
+  color: #fff;
+}
+/* End css Recruitment Page
+=========================================== */
+
+
+/* Start css Recruitment Detail Page
+=========================================== */
+.recruitment-detail-page {
+  position: relative;
+  font-family: "utm-aptima";
+}
+
+.layout-background-right {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 50%;
+  background: #f3f0ed;
+}
+
+.recruitment-detail-left {
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+
+.recruitment-detail-title {
+  font-size: 2.8rem;
+}
+
+.recruitment-detail-content-item {
+  margin-top: 20px;
+}
+
+.recruitment-detail-content-title {
+  font-size: 2rem;
+}
+
+.recruitment-detail-content-desc {
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.recruitment-detail-right {
+  margin-top: 50px;
+  font-size: 1.4rem;
+}
+
+.share-social {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.share-social .social-icons ul li{
+  border: 1px solid #ccc;
+  background: #fff;
+  width: 30px;
+  height: 30px;
+}
+
+.share-social .social-icons ul li:hover {
+  background: #405929;
+}
+
+.share-social .social-icons ul li a {
+  line-height: 26px;
+}
+
+.share-social-title {
+  margin-right: 10px;
+  font-size: 1.6rem;
+}
+
+.form-recruitment-detail-btn{
+  background: #405a29;
+  color: #fff;
+  padding: 4px 15px;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 30px;
+  font-weight: normal;
+  margin-bottom: 40px;
+}
+
+.submit-wrapper {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.form-recruitment-wrapper {
+  padding-left: 10px;
+}
+
+.form-recruitment-detail-item.border-top{
+  border-top: 1px solid #ccc;
+}
+
+.form-recruitment-detail-item {
+  border-bottom: 1px solid #ccc;
+  padding-left: 20px;
+}
+
+.form-recruitment-detail-item .content-big {
+  font-weight: bold;
+}
+
+.form-recruitment-detail-item .content-small {
+  color: #848484;
+  font-size: 1.5rem;
+}
+
+.title-small {
+  font-weight: normal;
+  color: #848484;
+  margin-top: 5px;
+  font-size: 1.5rem;
+}
+
+.title-big {
+  text-transform: uppercase;
+  font-weight: 2rem;
+}
+
+.form-title-2 {
+  text-transform: uppercase;
+  margin: 20px 0 20px 20px;
+}
+
+.form-title-2::after {
+  content: "";
+  width: 170px;
+  height: 1px;
+  background:#bcbcbc;
+  display: block;
+  margin-top: 10px;
+}
+
+.h-mb-1 {
+  margin-bottom: 10px;
+}
+
+.btn-recruitment-news {
+  margin-top: 30px;
+  background: #405a29;
+  color: #fff;
+  border-radius: 20px;
+  width: 100%;
+  text-transform: uppercase;
+  border: none;
+  padding: 3px 0;
+}
+
+/* End css Recruitment Detail Page
+=========================================== */
