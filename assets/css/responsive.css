@@ -24,6 +24,10 @@
 /* Tablet */
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .about-content-top {
+    margin-bottom: 40px;
+  }
+
   /* Start responsive Header */
   .navbar-logo {
     width: 220px;
@@ -177,6 +181,9 @@
 
 /* Mobile */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about-content-top {
+    margin-bottom: 50px;
+  }
   /* Start responsive Navbar */
   .nav-mobile-input:checked ~ .nav-overlay {
     display: block;
@@ -588,7 +595,6 @@
   .about-content-bottom {
     flex-direction: column-reverse;
     margin-top: 70px;
-    margin-bottom: 50px;
   }
 
   .about-content-bottom-right {
