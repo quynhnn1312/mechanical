@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/responsive.css" />
   <link rel="stylesheet" href="assets/css/animate.min.css">
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
 </head>
 
 <body>
@@ -21,42 +24,47 @@
         <nav id="main_nav" class="header-nav">
           <div class="navbar-logo">
             <div id="logo">
-              <img class="logo" src="assets/img/logo.jpg" alt="logo" />
+              <a href="#">
+                <img class="logo" src="assets/img/logo.jpg" alt="logo" />
+              </a>
             </div>
           </div>
           <div class="navbar-menu">
             <ul class="nav navbar-nav navbar-nav-pc">
               <li class="active nav-item">
-                <a class="nav-link" href="#">Trang chủ</a>
+                <a class="nav-link" href="index.html">Trang chủ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Về chúng tôi</a>
+                <a class="nav-link" href="about-us.html">Về chúng tôi</a>
               </li>
               <li class="dropdown nav-item">
-                <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">Sản phẩm - dịch vụ <span class="caret"></span></a>
+                <a href="product.html" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button"
+                  aria-haspopup="true" aria-expanded="false">Sản phẩm - dịch vụ <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Khí NH3</a>
+                    <a class="nav-link" href="product-detail.html">Khí NH3</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Dịch vụ NH4OH</a>
+                    <a class="nav-link" href="product-detail.html">Dịch vụ NH4OH</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Dịch vụ vận tải hóa chất</a>
+                    <a class="nav-link" href="product-detail.html">Dịch vụ vận tải hóa chất</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tin tức</a>
+                <a class="nav-link" href="blog.html">Tin tức</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Liên hệ</a>
+                <a class="nav-link" href="contact.html">Liên hệ</a>
               </li>
             </ul>
 
             <label for="nav-mobile-input" class="nav-bars-btn">
-              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2"/><path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z"/></svg>
+              <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+                <path d="M24 18v1h-24v-1h24zm0-6v1h-24v-1h24zm0-6v1h-24v-1h24z" fill="#1040e2" />
+                <path d="M24 19h-24v-1h24v1zm0-6h-24v-1h24v1zm0-6h-24v-1h24v1z" />
+              </svg>
             </label>
 
             <!-- <label for="nav-mobile-input"></label> -->
@@ -66,7 +74,7 @@
 
             <ul class="navbar-nav-mobile">
               <label for="nav-mobile-input" class="nav-mobile-close">
-                <img src="/assets/img/close-black.svg" alt="Close button">
+                <img src="assets/img/close-black.svg" alt="Close button">
               </label>
               <div class="nav-mobile-logo">
                 <a class="nav-link" href="#">
@@ -77,28 +85,28 @@
                 <a class="nav-link" href="#">Trang chủ</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Về chúng tôi</a>
+                <a class="nav-link" href="about-us.html">Về chúng tôi</a>
               </li>
               <li class="nav-item nav-item-sub">
-                <a href="#" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
+                <a href="product.html" class="nav-link" data-toggle="dropdown" role="button" aria-haspopup="true"
                   aria-expanded="false">Sản phẩm - dịch vụ <span class="caret"></span></a>
                 <ul class="nav-menu-sub">
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Khí NH3</a>
+                    <a class="nav-link" href="product-detail.html">Khí NH3</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Dịch vụ NH4OH</a>
+                    <a class="nav-link" href="product-detail.html">Dịch vụ NH4OH</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Dịch vụ vận tải hóa chất</a>
+                    <a class="nav-link" href="product-detail.html">Dịch vụ vận tải hóa chất</a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Tin tức</a>
+                <a class="nav-link" href="blog.html">Tin tức</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Liên hệ</a>
+                <a class="nav-link" href="contact.html">Liên hệ</a>
               </li>
             </ul>
           </div>
@@ -237,23 +245,46 @@
             </h2>
 
             <p class="infrastructure-desc">
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut
+              laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+              ullamcorper suscipit lobortis nisl ut aliquip ex ea
             </p>
 
             <div class="infrastructure-action text-center">
               <div class="infrastructure-mouse">|</div>
               <div class="infrastructure-described">
-                <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"/></svg>
+                <svg class="customNextBtn" width="24" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                  clip-rule="evenodd">
+                  <path d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z" />
+                </svg>
 
                 Trượt để khám phá
 
-                <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+                <svg class="customPrevBtn" width="24" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                  clip-rule="evenodd">
+                  <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+                </svg>
               </div>
             </div>
           </div>
 
           <div class="col-md-8 infrastructure-slider-wrapper">
-            <div  class="infrastructure-slider row">
+            <div class="infrastructure-slider row owl-carousel owl-theme">
+              <div class="infrastructure-carousel-item col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/img/slide-1.jpg" alt="">
+              </div>
+
+              <div class="infrastructure-carousel-item col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/img/slide-2.jpg" alt="">
+              </div>
+
+              <div class="infrastructure-carousel-item col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/img/slide-1.jpg" alt="">
+              </div>
+
+              <div class="infrastructure-carousel-item col-xs-12 col-sm-6 col-md-4">
+                <img src="assets/img/slide-2.jpg" alt="">
+              </div>
               <div class="infrastructure-carousel-item col-xs-12 col-sm-6 col-md-4">
                 <img src="assets/img/slide-1.jpg" alt="">
               </div>
@@ -383,7 +414,9 @@
 
       <a class="featured-news-collection-more" href="">
         Xem tất cả
-        <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" /></svg>
+        <svg width="24" height="18" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd">
+          <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+        </svg>
       </a>
     </div>
   </section>
@@ -413,7 +446,8 @@
 
               <div class="subscribe-latest-news">
                 <form class="form-subscribe-news" action="">
-                  <input class="input-subscribe-news" type="text" required placeholder="Nhập email của bạn để nhận tin tức">
+                  <input class="input-subscribe-news" type="text" required
+                    placeholder="Nhập email của bạn để nhận tin tức">
                   <button class="btn-subscribe-news">Đăng ký nhận tin</button>
                 </form>
               </div>
@@ -542,6 +576,7 @@
   <script src="assets/js/jquery-2.2.4.min.js"></script>
   <script src="assets/js/jquery.touchSwipe.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/owl.carousel.min.js"></script>
   <script src="assets/js/script.js"></script>
 </body>
 

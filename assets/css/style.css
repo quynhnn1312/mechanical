@@ -26,17 +26,6 @@ html, body {
   top: 100;
 }
 
-@keyframes fadeInDown {
-  0% {
-     opacity: 0;
-     transform: translateY(-20px);
-  }
-  100% {
-     opacity: 1;
-     transform: translateY(0);
-  }
-}
-
 .main-nav-area.sticky {
  position: fixed;
     top: 0;
@@ -79,6 +68,7 @@ html, body {
 
 .main-nav-area.sticky .navbar-logo{
   position: fixed;
+  z-index: 999999999999999999999999;
 }
 
 .header .navbar-logo .logo {
@@ -363,7 +353,6 @@ html, body {
   color: #fff;
   padding: 20px 50px;
   min-height: 400px;
-
   width: 60%;
 }
 
@@ -373,7 +362,7 @@ html, body {
 
 .about-content-bottom-left {
   position: relative;
-  z-index: 999999;
+  z-index: 999;
   margin-right: -50px;
 }
 
@@ -463,27 +452,37 @@ html, body {
 .infrastructure-slider {
   display: flex;
   position: absolute;
-  top: -60px;
+  top: -53px;
 }
 
 .infrastructure-carousel-item {
   width: 400px;
-  height: 500px;
+  /* height: 500px; */
 }
 
-.infrastructure-carousel-item:nth-child(n+4):nth-last-child(3):not(:nth-child(5)):not(:nth-child(6)) {
-  display: none;
- }
-.infrastructure-carousel-item:nth-child(n+4):nth-last-child(-n+2):not(:nth-child(6)) {
-  display: none;
- }
- .infrastructure-carousel-item:nth-child(n+4):nth-last-child(-n+1) {
-  display: none;
- }
- .infrastructure-carousel-item:nth-child(n+7) {
-  display: none;
- }
+.infrastructure-slider.owl-carousel .owl-stage-outer {
+  /* overflow: unset !important; */
+  width: 1200px !important
+}
 
+.infrastructure-slider.owl-carousel .owl-stage {
+  display: flex;
+}
+
+.infrastructure-slider.owl-carousel.owl-drag .owl-item {
+  width: 400px !important;
+  margin: 0 !important;
+}
+
+.infrastructure-slider .owl-nav,
+.infrastructure-slider .owl-dots{
+  display: none;
+}
+
+.infrastructure-slider-wrapper .no-js .owl-carousel,
+.infrastructure-slider-wrapper .owl-carousel.owl-loaded {
+  position: absolute;
+}
 
 .infrastructure-carousel-item img {
   border: 13px solid #f3f0ed;
@@ -616,6 +615,7 @@ footer {
 
 .footer-logo img{
   width: 200px;
+
 }
 
 .footer-wrapper .infor-website {

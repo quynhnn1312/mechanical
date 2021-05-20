@@ -28,13 +28,11 @@
     margin-bottom: 40px;
   }
 
-  /* Start responsive Header */
+  /* Start responsive Navbar */
   .navbar-logo {
     width: 220px;
   }
-  /* End responsive Header */
 
-  /* Start responsive Navbar */
   .nav-mobile-input:checked ~ .nav-overlay {
     display: block;
   }
@@ -181,6 +179,15 @@
 
 /* Mobile */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
+  .infrastructure-carousel-item {
+    width: 242px;
+  }
+
+  .infrastructure {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .about-content-top {
     margin-bottom: 50px;
   }
@@ -308,6 +315,15 @@
     height: 310px;
   }
 
+  .infrastructure-slider-wrapper .owl-carousel.owl-loaded {
+    position: relative !important;
+    height: 100%;
+  }
+
+  .infrastructure-slider.owl-carousel .owl-stage-outer {
+    overflow: unset !important;
+  }
+
   .infrastructure-content-left {
     margin-bottom: 30px;
   }
@@ -372,6 +388,15 @@
 
 /* Mobile */
 @media (max-width: 767px) {
+  .infrastructure-carousel-item {
+    width: 242px;
+  }
+
+  .infrastructure {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
   .product-desc {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -499,8 +524,12 @@
   .infrastructure-slider {
     position: relative;
     top: unset;
-    height: 310px;
   }
+
+  .infrastructure-slider-wrapper .owl-carousel.owl-loaded {
+    position: relative !important;
+  }
+
   .infrastructure-carousel-item:nth-of-type(2) {
     display: none;
   }
@@ -618,8 +647,6 @@
 }
 
 @media (max-width: 559px) {
-
-
   .product-title-sub {
     margin-top: 20px;
   }
@@ -627,10 +654,6 @@
   .product-page .media-left {
     display: flex;
     justify-content: center;
-  }
-
-  .infrastructure-carousel-item:nth-of-type(1) {
-    display: none;
   }
 
   .navbar-logo {
@@ -752,4 +775,20 @@
   }
 }
 
+@media (max-width: 392px) {
+  .our-partner.box .box-title .box-title-sub:after {
+    width: 80%;
+    left: 100%;
+  }
+}
 
+@keyframes fadeInDown {
+  0% {
+     opacity: 0;
+     transform: translateY(-20px);
+  }
+  100% {
+     opacity: 1;
+     transform: translateY(0);
+  }
+}
